@@ -3,92 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-.checked{
-    color: orange;
-}
-.review-card {
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    padding: 10px; /* Adjust the padding to make the card smaller */
-}
-.review-card .profile-section {
-    padding: 20px;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 
-.review-card .description-section {
-    padding: 20px;
-    background-color: #fff;
+:root {
+	--yellow: #FFBD13;
+	--blue: #4383FF;
+	--blue-d-1: #3278FF;
+	--light: #F5F5F5;
+	--grey: #AAA;
+	--white: #FFF;
+	--shadow: 8px 8px 30px rgba(0,0,0,.05);
 }
 
-.review-card .image-section {
-    padding: 10px;
-    background-color: #f8f9fa;
-}
-
-.review-card .stars i {
-    color: #ffd700;
-}
-
-.review-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-.custom-img {
-    width: calc(33.333% - 10px); /* Adjust the percentage and spacing as needed */
-    max-width: none; /* Override Bootstrap's max-width */
-    margin-right: 10px; /* Adjust the spacing between images */
-}
-
-.custom-img:last-child {
-    margin-right: 0; /* Remove margin from the last image to prevent extra spacing */
-}
-.review-card {
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    padding: 10px; /* Adjust the padding to make the card smaller */
-}
-
-.profile-section {
-    padding: 10px;
-}
-
-.profile-section .stars {
-    margin-left: auto;
-}
-
-.profile-section .text-muted {
-    margin-right: 10px; /* Adjust margin as needed */
-}
-
-.description-section {
-    padding: 10px; /* Adjust the padding of the description section */
-}
-
-.image-section {
-    padding: 10px; /* Adjust the padding of the image section */
-}
-
-.custom-img {
-    width: calc(33.333% - 5px); /* Adjust the image width */
-    max-width: none; /* Override Bootstrap's max-width */
-    margin-right: 5px; /* Adjust the spacing between images */
-}
-
-.custom-img:last-child {
-    margin-right: 0; /* Remove margin from the last image to prevent extra spacing */
-}
-
-.custom-button {
-    background-color: rgb(225, 192, 255);
-    color: rgb(144, 6, 144);
-    padding: 13px 140px;
-    font-size: 24px;
-    border-radius: 12px;
-    border: none;
-    transition: all 0.3s ease;
-}
 
